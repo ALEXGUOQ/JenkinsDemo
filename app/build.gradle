@@ -15,7 +15,7 @@ android {
         signConfig {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
-            storeFile file('./debug.keystore')
+            storeFile file('../debug.keystore')
             storePassword 'android'
         }
     }
